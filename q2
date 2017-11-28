@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+    int x, y, i, valor;
+    printf("Infome o numero  e depois a potencia:\n");
+    scanf("%i%i", &x, &y);
+    valor=x;
+    for(i=1; i<=y-1; i++){
+        valor=valor*x;
+
+    }
+    printf("Resultado de %i elevedo a %i  = %d", x, y, valor);
+
+
+
+
+return 0;
+}

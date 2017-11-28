@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+    int v=8,N, i, valor;
+    printf("Digite um valor Maior que 8:\n");
+    scanf("%i",&N);
+    for(i=8; i<=N; i++){
+        printf("%i, ", v);
+        v=v+2;
+        printf("%i, ", v);
+        v=(v-2)*2;
+        i=v;
+
+    }
+
+
+
+return 0;
+}

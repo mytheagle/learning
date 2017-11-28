@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main(){
+    int vd, init, fim, resultado=0, i;
+    printf("\nEntre com o valor do divisor:\n");
+    scanf("%i", &vd);
+    printf("\nInicio do intervalo:\n");
+    scanf("%i", &init);
+    printf("\nFinal do intervalo:\n");
+    scanf("%i", &fim);
+    printf("\nNumero divisiveis por %i no intervalo de %i a %i:\n", vd, init, fim);
+    i=init;
+    while(i!=fim){
+    i++;
+    init++;
+    resultado=init%vd;
+    if(resultado==0)printf("%d ",init);
+
+
+    }
+
+
+
+
+return 0;
+}
